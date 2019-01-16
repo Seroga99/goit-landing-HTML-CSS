@@ -1,0 +1,13 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './variables.scss';
+
+// components
+@import './components/header.scss';
+@import './components/course.scss';
+@import './components/ruls.scss';
+@import 'components/programList.scss';
+@import 'components/info.scss';
+@import './components/modalWindow.scss';
