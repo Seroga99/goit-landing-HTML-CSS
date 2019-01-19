@@ -1,0 +1,28 @@
+.programList__li{
+  width: 200px;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+.programList__li::before{
+  content: '0,1';
+  background: $orange; 
+  position: absolute;
+}
+
+.programlist__h2{
+  background-color: black;
+  color: white;
+  display: inline-block;    
+  height: 67px;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: $Nunito;
+}
+
+.orange{
+  background-color: $orange;
+  display: inline-block;
+}
+
