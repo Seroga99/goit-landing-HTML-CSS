@@ -7,10 +7,13 @@
 }
 
 .programList__li::before{
-  content: "1";
-  left: -70px;
-  background: $orange; 
+  content: counter(item, decimal-leading-zero) ".";
+  counter-increment: item;
+  left: -60px;
   position: absolute;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
 
 }
 
@@ -24,19 +27,20 @@
   font-family: $Nunito;
 }
 
+.margin{
+  margin-left: 70px;
+}
+
 
 .orange{
   background-color: $orange;
   display: inline-block;
 }
 
-.item__first-part{
-  height: 227px;
-  background-color: yellow;
+.fitem__first-patrt{
+  height: 200px;
 }
 
 .item__second-part{
   height: 193px;
-  background-color: blue;
 }
-
