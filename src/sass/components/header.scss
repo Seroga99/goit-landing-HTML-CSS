@@ -4,9 +4,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 90px;
   
   .header__contacts {
     height: 100%;
+    width: 320px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
   }
 
   li {
@@ -17,13 +23,27 @@
     text-decoration: none;
   }
 
+  &__phone {
+    color:$black;
+    font-family: $Nunito;
+    font-weight: 900;
+  }
+
+  &__mail {
+    color: $black;
+    font-family: $Nunito;
+    font-weight: 900;
+
+  }
+  
   &__phone::before {
-    content: url('../../images/header/phone@1x.svg');
+    // content: url('../../images/header/phone.svg');
     margin-right: 10px;
+    
   }
 
   &__mail::before {
-    content: url('../../images/header/mail@1x.svg');
+    // content: url('../../images/header/mail.svg');
     margin-right: 10px;
   }
 

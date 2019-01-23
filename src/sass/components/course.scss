@@ -1,0 +1,34 @@
+.section__course {
+    width: 100%;
+
+
+  .section__title {
+      font-family: $Nunito;
+      font-weight: 900;
+      font-size: 55px;
+  }
+  &__title::before {
+      content: '\2b25';
+  }
+
+  &__bgcblack {
+    background-color: #000;
+
+  }
+  .section__text {
+        font-size: 21px;
+        font-family: $Nunito;
+        color: rgb(35, 31, 32);
+        font-weight:800;
+        
+
+     }
+     .course_container {
+         width: 424px;
+         display: inline-block;
+     }
+     .course__images {
+         display: inline-blocke;
+     }
+      
+   }
