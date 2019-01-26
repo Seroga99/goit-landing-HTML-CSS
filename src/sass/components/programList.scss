@@ -1,9 +1,40 @@
+.section__programList{
+
+
 .programList__li{
-  width: 200px;
-  height: 420px;
+  width: 225px;
   list-style-type: none;
   display: inline-block;
   position: relative;
+  margin-bottom: 60px;
+  margin-left: 60px;
+}
+// ._01_ {
+//     font-size: 31.72px;
+//     font-family: "Acrom";
+//     color: rgb(0, 0, 0);
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     line-height: 1.135;
+//     -moz-transform: matrix( 1.18212445974046,0,0,1.18221111516817,0,0);
+//     -webkit-transform: matrix( 1.18212445974046,0,0,1.18221111516817,0,0);
+//     -ms-transform: matrix( 1.18212445974046,0,0,1.18221111516817,0,0);
+//     position: absolute;
+//     left: 173.233px;
+//     top: 2659.499px;
+//     z-index: 148;
+//   }
+  
+.programList__li:nth-child(-n+3){
+    margin-top: 55px;
+}
+
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  counter-reset: item;
+  list-style-type: none;
 }
 
 .programList__li::before{
@@ -13,12 +44,21 @@
   position: absolute;
   font-size: 32px;
   font-weight: 800;
-  font-family: 'Nunito', sans-serif;
+  font-family: $Nunito; 
+}
 
+.programList__li:nth-child(-n+9):after{
+  content: '';
+  width: 20px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  font-size: 32px;
+  left: -71px;
 }
 
 .programlist__h2{
-  background-color: black;
   color: white;
   display: inline-block;    
   height: 67px;
@@ -27,20 +67,44 @@
   font-family: $Nunito;
 }
 
-.margin{
-  margin-left: 70px;
+.programList__text{
+  font-family: $Nunito;
+  margin-top: 15px;
+  line-height: 1.4;
 }
-
 
 .orange{
   background-color: $orange;
   display: inline-block;
+  color: white;
 }
 
-.fitem__first-patrt{
+.programList__pbefore::before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: $orange;
+  position: absolute; 
+  margin-left: -21px;
+  margin-top: 63px;
+}
+.first__line{
+  height :300px;
+}
+.linethree{
+  height: 220px;
+}
+.linefour{
+  height: 230px;
+}
+.linefifth{
+  height: 250px;
+}
+.lastline{
   height: 200px;
 }
 
 .item__second-part{
-  height: 193px;
+  margin-top: 20px;
+}
 }
