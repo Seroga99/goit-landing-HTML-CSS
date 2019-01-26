@@ -1,55 +1,60 @@
 .section__info {
-    .section_title{
-        font-size: 35.43px;
+
+    .section__title {
+        font-size: 35px;
         font-family: $Nunito;
         font-weight: 900;
         line-height: 1.364;
-        width: 450px;
+        width: 480px;
         margin-bottom: 30px;
     }
-    .section__block{
+    .item{
         display: inline-block;
-        box-shadow: -10px 10px 20px 1px rgba(0,0,0,0.75);
-        width: 500px;
-        height: 297px;
-        padding: 50px;
+        width: 410px;
         position: relative;
+        padding: 0px 40px 40px 40px;
+        margin-bottom: 30px;
     }
-    .section_block_p{
-            font-size: 16.667px;
+    .item__img {
+        margin-left: -5px;
+    }
+    .item__p{
+            font-size: 16px;
             font-family: $Nunito;
-            color: rgb(255, 255, 255);
             font-weight: bold;
-            line-height: 1.6;
-            position: absolute;
-            transform: rotate(270deg);
-            line-height: 2.2;
+            line-height: 1.5;
+            color: rgb(35, 31, 32);
+
     }
-    .section__p::before {
+    .item__p::before {       
         background-color: rgb(239, 115, 48);        
         content: "[ 001 ]";
         font-family: $Nunito;
         font-weight: bold;
-        font-size: 10px;
-        line-height: 1.6;
+        font-size: 12px;
         color: white;
-        margin-left: -50px;
-        margin-top: 40px;
+        margin-left: -60px;
+        margin-top: 15px;
+        position: absolute;
+        padding: 3px 6px;
+    }
+    .item__p::before {
+        transform: rotate(270deg); 
     }
 }
-.container{
+.list{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
-.section__p {
-    font-size: 16.667px;
-    font-family: $Nunito;
-    color: rgb(35, 31, 32);
-    line-height: 1.5;
-    position: absolute;
-    font-weight: bold;   
-    width: 392px;
-    height: 167px;
+.item__img {
+    background-image: url('../images/Cofee7.png');
+    width: 380px;
+    height: 220px; 
+    background-position: center center;
+    background-size: cover;
+
 }
-  

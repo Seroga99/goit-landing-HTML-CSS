@@ -1,0 +1,113 @@
+.section__ruls {
+    margin: auto;
+    width: 450px;
+    height: 305px;
+    box-shadow: -6px 10px 30px 5px rgba(0,0,0,0.75);
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+        width: 350px;
+        margin: auto;
+        padding: 40px 0px 30px 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140px;
+        width: 203px;
+    }
+
+    .item {
+        width: max-content;
+        
+    }
+    .long {
+        margin-bottom: 2px;
+    }
+    .section__span {
+            background-color: black;
+            font-family: $Nunito;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.433;
+            width: max-content;
+            line-height: 1.1;
+    }
+    .section__span_ob{
+        background-color: black;
+        font-family: $Nunito;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.433;
+        width: max-content;
+        text-align: right;
+    }
+    .start__course_p {
+        color: black;
+        font-family: $Nunito;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 1.4;
+        
+    }
+    .list__price {
+        height: 92%;
+        display: inline-block;
+
+    }
+    }
+    .section__bottom  {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.start {
+    margin-bottom: 40px;
+
+}
+.fw {
+    padding-top: 5px;
+    font-family: $Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 3px;
+}
+.fw::before {
+    content: '';
+    width: 90px;
+    height: 4px;
+    background-color: $orange;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    transform: rotate(-15deg);
+
+}
+.midle {
+    margin-bottom: 20px;
+}
+    .section__bottom button {
+        background-color: $orange;
+        box-shadow: 0px 9px 13px 0px rgba(184, 93, 39, 0.26);
+        width: 336px;
+        height: 45px;
+        border: 0;
+        font-size: 14.367px;
+        font-family: $Nunito;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }      
