@@ -1,8 +1,19 @@
 .section__course {
     width: 100%;
+    position: relative;
+    .goit {
+        font-size: 250px;
+        font-family: $Nunito;
+        color: rgba(0, 0, 0, 0.051);
+        font-weight: 900;
+        text-transform: uppercase;
+        position: absolute;
+        top: 500px;
+        right: -90px;
+        transform: rotate(90deg);
+    }
 
-
-  .course__title {
+  .course__title {  
       font-family: $Nunito;
       font-weight: 800;
       font-size: 55px;
@@ -12,7 +23,7 @@
     .course__text::before {
       content: '';
       position: absolute;
-      left: -99px;
+      left: -100px;
       top: 10px;
       width: 57px;
       height: 10px;
@@ -25,6 +36,7 @@
         width: 900px;
         width: max-content;
         line-height: 1.05;
+        margin-bottom: 8px;
         
   }
   .course__text {
@@ -68,20 +80,21 @@
              height: 15px;
             background-color: #000;
             position: absolute;
-            top: -25px;
+            top: -38px;
         }
         .article {
-        margin-bottom: 68px;
+            margin-bottom: 68px;
     
         }
         .title__about-me {
-        font-family: $Nunito;
-        font-size: 35.43px;
-        color: rgb(0, 0, 0);
+            font-family: $Nunito;
+            font-size: 35.43px;
+            font-weight: 800px;
+            color: rgb(0, 0, 0);
 
         }
         .container__about-me {
-            box-shadow: -11px 10px 34px -3px rgba(119,119,119,1);
+            box-shadow: -6px 10px 30px 5px rgba(0,0,0,0.15);
             width: 300px;
             height: 187px;
             margin:auto;
@@ -91,17 +104,19 @@
             position: relative;
 
         }
-        .container__about-me::before {
+        .text__about-me::before {
             content: '';
             width: 10px;
-            height: 8px;
+            height: 10px;
             background-color: #f06e2c;
             position: absolute; 
-            top: 25px;
+            top: 15px;
         }
         .text__about-me {
             font-size: 16px;
             font-family: $Nunito;
+            line-height: 1.5;
+            font-weight: 600;
            
         }
         .after__container {
@@ -117,6 +132,7 @@
             font-size: 35px;
             font-family: $Nunito;
             font-weight: 800;
+            margin-bottom: 30px;
         }
         .after__text {
             background-color: #000;
@@ -125,6 +141,8 @@
         }
         .after__course-text {
             font-size: 16px;
+            line-height: 1.5;
+            font-weight: 600;
             color: rgb(0, 0, 0);
             font-family: $Nunito;
             margin-left: 80px;
@@ -135,7 +153,7 @@
             content: '';
             position: absolute;
             left: -81px;
-            top: 10px;
+            top: 3px;
             width: 48px;
             height: 8px;
             background-color: #000;
@@ -149,30 +167,4 @@
      }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    //  .Работать_web_разработчиком_на_фрилансе__или_в_ш {
-    //     font-size: 16px;
-    //     font-family: "Myriad Pro";
-    //     color: rgb(0, 0, 0);
-    //     line-height: 1.5;
-    //     -moz-transform: matrix( 1.03389830508475,0,0,1.03491220874993,0,0);
-    //     -webkit-transform: matrix( 1.03389830508475,0,0,1.03491220874993,0,0);
-    //     -ms-transform: matrix( 1.03389830508475,0,0,1.03491220874993,0,0);
-    //     position: absolute;
-    //     left: 252.978px;
-    //     top: 1601.787px;
-    //     width: 306.612px;
-    //     height: 135.659px;
-    //     z-index: 172;
-    //   }       
+      

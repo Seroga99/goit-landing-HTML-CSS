@@ -1,8 +1,9 @@
 .section__ruls {
+    margin-top: 30px;
     margin: auto;
     width: 450px;
     height: 305px;
-    box-shadow: -6px 10px 30px 5px rgba(0,0,0,0.75);
+    box-shadow: -6px 10px 30px 5px rgba(0,0,0,0.15);
     
     .container {
         display: flex;
@@ -17,9 +18,11 @@
         list-style: none;
     }
     .list{
+        padding-top: 3px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-end;
         height: 140px;
         width: 203px;
     }
@@ -63,7 +66,6 @@
     .list__price {
         height: 92%;
         display: inline-block;
-
     }
     }
     .section__bottom  {
@@ -90,9 +92,9 @@
     height: 4px;
     background-color: $orange;
     position: absolute;
-    top: 5px;
+    top: 12px;
     left: -5px;
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
 
 }
 .midle {
@@ -111,3 +113,6 @@
         text-transform: uppercase;
         text-align: center;
     }      
+.section__bottom button:hover {
+    background-color: orange;
+}

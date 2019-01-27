@@ -21,7 +21,7 @@
     .item__p{
             font-size: 16px;
             font-family: $Nunito;
-            font-weight: bold;
+            font-weight: 600;
             line-height: 1.5;
             color: rgb(35, 31, 32);
 
@@ -37,9 +37,13 @@
         margin-top: 15px;
         position: absolute;
         padding: 3px 6px;
-    }
-    .item__p::before {
         transform: rotate(270deg); 
+    }
+    .item2::before {
+        content: "[ 002 ]";
+    }
+    .item3::before {
+        content: "[ 003 ]";
     }
 }
 .list{
